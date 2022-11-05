@@ -1,0 +1,14 @@
+<%- include("./partials/header") %>
+
+<div class="container mt-5">
+    <ul class="list-group my-5">
+        <% post.forEach(posts => { %>
+            <li class="list-group-item">
+                <%= posts.description %>
+                <a href="/delete/post/<%= posts._id %>" class="btn btn-danger btn-md">Delete</a>
+            </li>
+        <% }) %>
+    </ul>
+</div>
+
+<%- include("./partials/footer") %>

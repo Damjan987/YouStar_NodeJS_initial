@@ -1,0 +1,12 @@
+.gradient-custom-4 {
+/* fallback for old browsers */
+background: #ffc107;
+}
+
+.main-button {
+    background: #ffcc33;
+}
+
+.main-button:hover {
+    background: #e6ac00; 
+}
